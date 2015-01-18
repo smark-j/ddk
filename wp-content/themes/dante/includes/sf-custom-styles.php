@@ -817,7 +817,7 @@
 			$logo_row_height = $logo_height + 20;
 			echo '#logo {height: '.$logo_height.'px!important;}';
 			echo '#logo img {height: '.$logo_height.'px;}';
-			echo '.header-container > .row, .header-5 header .container > .row, .header-6 header > .container > .row {height: '.$logo_row_height.'px;}';
+			echo '.header-container > .row, .header-5 header .container > .row, .header-6 header > .container > .row {height: 131px;}';
 			} else {
 			echo '#logo {max-height: 42px;}';
 			}
@@ -862,7 +862,8 @@
 			echo 'nav .menu ul.sub-menu li.menu-item > a, nav .menu ul.sub-menu li > span, #top-bar nav .menu ul li > a {color: '.$nav_sm_text_color.';}';
 			echo 'nav .menu ul.sub-menu li.menu-item:hover > a {color: '.$nav_sm_text_hover_color.'!important; background: '.$nav_sm_bg_hover_color.';}';
 			echo 'nav .menu li.parent > a:after, nav .menu li.parent > a:after:hover {color: #aaa;}';
-			echo 'nav .menu li.current-menu-ancestor > a, nav .menu li.current-menu-item > a, #mobile-menu .menu ul li.current-menu-item > a, nav .menu li.current-scroll-item > a {color: '.$nav_selected_text_color.';background-image: url(wp-content/themes/dante/images/xz.png);}';
+			echo 'nav .menu li.current-menu-ancestor, nav .menu li.current-menu-item, #mobile-menu .menu ul li.current-menu-item, nav .menu li.current-scroll-item {background-image: url(wp-content/themes/dante/images/xz.png);}';
+			echo 'nav .menu li.current-menu-ancestor > a, nav .menu li.current-menu-item > a, #mobile-menu .menu ul li.current-menu-item > a, nav .menu li.current-scroll-item > a {color: '.$nav_selected_text_color.';}';
 			echo 'nav .menu ul li.current-menu-ancestor > a, nav .menu ul li.current-menu-item > a {color: '.$nav_sm_selected_text_color.'; background: '.$nav_sm_bg_hover_color.';}';
 			echo '#main-nav .header-right ul.menu > li, .wishlist-item {border-left-color: '.$nav_divider_color.';}';
 			echo '#nav-search, #mini-search {background: '.$topbar_bg_color.';}';

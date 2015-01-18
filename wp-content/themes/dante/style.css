@@ -2074,6 +2074,7 @@ aside.right-sidebar.sticky {
 }
 .spb_wrapper > h1:first-child, .spb_wrapper > h2:first-child, .spb_wrapper > h3:first-child, .spb_wrapper > h4:first-child, .spb_wrapper > h5:first-child, .spb_wrapper > h6:first-child {
 	margin-top: 0;
+	
 } 
 .spb-heading i {
 	font-size: 20px;
@@ -2097,6 +2098,7 @@ h4.spb-heading, h3.spb-heading, h4.lined-heading {
 }
 h3.spb-heading {
 	margin-bottom: 25px;
+	/* background:url(images/sidebar.png) no-repeat; */
 }
 h3.spb-center-heading, h4.spb-center-heading {
 	text-align: center;
@@ -2114,7 +2116,7 @@ h4.lined-heading span:after {
 	content: "";
 	position: absolute;
 	height: 5px;
-	border-top: 1px solid #222;
+	/* border-top: 1px solid #222; */
 	top: 0;
 	width: 1200px;
 }
@@ -3225,7 +3227,7 @@ nav .menu .wishlist-item ul.sub-menu li:first-child:before {
 }
 #header-section.header-6 #header {
 	background-image: url(images/navbg.jpg);
-	padding: 25px 0 42px 0;
+	padding: 0;
 	-webkit-animation-fill-mode: both;
 	-moz-animation-fill-mode: both;
 	-o-animation-fill-mode: both;
@@ -3428,17 +3430,20 @@ nav .menu .wishlist-item ul.sub-menu li:first-child:before {
 }
 .header-6 #logo, .header-7 #logo {
 	position: absolute;
-	left: 15px;
+	margin:16px 0 0 15px;
+	/* left: 15px; */
 	height: 100%;
 	z-index: 2;
 }
 .header-6 .search-nav, .header-7 .search-nav {
 	position: absolute;
+	margin-top:16px;
 	right: 15px;
 	z-index: 2;
 }
 .header-3 #main-navigation, .header-4 #main-navigation, .header-5 #main-navigation, .header-6 #main-navigation, .header-7 #main-navigation {
 	margin-right: 0;
+	/* margin-top:16px; */
 	width: 100%;
 }
 .header-3 #main-navigation div > ul.menu > li:first-child, .header-4 #main-navigation div > ul.menu > li:first-child, .header-5 #main-navigation div > ul.menu > li:first-child, .header-6 #main-navigation div > ul.menu > li:first-child, .header-7 #main-navigation div > ul.menu > li:first-child {
@@ -3531,7 +3536,7 @@ nav#main-navigation .menu > li:hover span.nav-line, nav#main-navigation .menu > 
 	width: 99%;
 }
 nav#main-navigation .menu > li, .header-4 #main-navigation .menu > li, .header-5 #main-navigation .menu > li, .header-7 #main-navigation .menu > li {
-	padding: 0 10px 20px;
+	padding: 16px 26px;
 }
 .header-1 nav#main-navigation .menu > li, .header-2 nav#main-navigation .menu > li {
 	padding: 0 10px 4px;
@@ -4220,7 +4225,7 @@ nav.mega-menu li .sub-container.non-mega li.menu-item > a {
 	margin-top: -1px;
 }
 .is-sticky .sticky-header-resized nav#main-navigation .menu > li {
-	padding-bottom: 6px;	
+	/* padding-bottom: 6px; */	
 }
 .header-1 .is-sticky .sticky-header-resized nav#main-navigation .menu > li, .header-2 .is-sticky .sticky-header-resized nav#main-navigation .menu > li {
 	padding-bottom: 5px;
@@ -4229,7 +4234,7 @@ nav.mega-menu li .sub-container.non-mega li.menu-item > a {
 	padding: 13px 5px;
 }
 .header-3 .is-sticky .sticky-header-resized #main-navigation .menu > li, .header-4 .is-sticky .sticky-header-resized #main-navigation .menu > li, .header-5 .is-sticky .sticky-header-resized #main-navigation .menu > li, .header-6 .is-sticky .sticky-header-resized #main-navigation .menu > li, .header-7 .is-sticky .sticky-header-resized #main-navigation .menu > li {
-	padding: 0 10px 10px;
+	/* padding: 0 10px 10px; */
 }
 .header-5 .is-sticky .sticky-header-resized nav#main-navigation .menu > li > a, .header-6 .is-sticky .sticky-header-resized nav#main-navigation .menu > li > a, .header-7 .is-sticky .sticky-header-resized nav#main-navigation .menu > li > a {
 	padding-top: 6px;
