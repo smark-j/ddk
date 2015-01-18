@@ -2098,14 +2098,16 @@ h4.spb-heading, h3.spb-heading, h4.lined-heading {
 }
 h3.spb-heading {
 	margin-bottom: 25px;
-	/* background:url(images/sidebar.png) no-repeat; */
+	background:url(images/sidebar.png) no-repeat;
 }
 h3.spb-center-heading, h4.spb-center-heading {
 	text-align: center;
 }
 h4.spb-heading span, h3.spb-heading span, h4.lined-heading span {
 	display: inline-block;
-	position: relative;  
+	position: relative; 
+	margin:10px 0px 10px 20px;
+	color:#ffffff;
 }
 h4.spb-heading span:before,
 h4.spb-heading span:after,
