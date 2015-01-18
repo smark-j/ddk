@@ -968,7 +968,7 @@
 			echo '.blog-filter-wrap .aux-list li:hover a {color: '.$accent_alt_color.';background: '.$accent_color.';}';
 			echo '.mini-blog-item-wrap, .mini-items .mini-alt-wrap, .mini-items .mini-alt-wrap .quote-excerpt, .mini-items .mini-alt-wrap .link-excerpt, .masonry-items .blog-item .quote-excerpt, .masonry-items .blog-item .link-excerpt, .standard-post-content .quote-excerpt, .standard-post-content .link-excerpt, .timeline, .post-info, .body-text .link-pages, .page-content .link-pages {border-color: '.$section_divide_color.';}';
 			echo '.post-info, .article-body-wrap .share-links .share-text, .article-body-wrap .share-links a {color: '.$body_alt_text_color.';}';
-			echo '.standard-post-date {background: '.$section_divide_color.';}';
+			/* echo '.standard-post-date {background: '.$section_divide_color.';}'; */
 			echo '.standard-post-content {background: '.$alt_bg_color.';}';
 			echo '.format-quote .standard-post-content:before, .standard-post-content.no-thumb:before {border-left-color: '.$alt_bg_color.';}';
 			echo '.search-item-img .img-holder {background: '.$alt_bg_color.';border-color:'.$section_divide_color.';}';

@@ -6559,7 +6559,7 @@ ul.blog-aux-options li {
 	left: 30px;
 	width: 2px;
 	height: 94%;
-	background: #e4e4e4;
+	background: #D8D8D8;
 	float: left;
 	z-index: 0;
 }
@@ -6582,17 +6582,19 @@ ul.blog-aux-options li {
 	margin: 0 auto;	
 }
 .standard-post-date {
+	color:#ffffff;
+	background-image:url(images/ptitle1.png);
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	background-color: #e3e3e3;
-	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
-	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
-	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
-	padding: 4px 10px;
+	/* background-color: #e3e3e3; */
+	/* -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1); 
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);*/
+	padding: 5px 45px 4px 15px;
 	display: inline-block;
 	text-transform: uppercase;
 	font-size: 12px;
